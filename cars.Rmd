@@ -15,8 +15,7 @@ output: pdf_document
 ###A simple model was first designed (mpg ~ factor(am)) to answer the question being asked. But since we found the R squared to be low and other variables in the data set having linear relationship with mpg we designed a multivariate regression model that ultimately increased the R squared value to 83.4%. The final verdict being manual transmission being better for MPG than automatic. 1.8 is the estimated expected increase in miles per gallon when compared manual transmission to automatic transmission.
 
 ##Analysis
-```
-{r}
+```{r}
 data("mtcars")
 library(ggplot2)
 library(car)
